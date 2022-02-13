@@ -60,7 +60,9 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  creator: "ChypChrome"
+};
 
 const rarityDelimiter = "#";
 
