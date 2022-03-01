@@ -5,16 +5,36 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "New Collection";
-const description = "A semi-random generated set of 50 images.";
+const namePrefix = "??";
+const description = "??";
 const baseUri = "ipfs://NewUriToReplace";
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 1,
     layersOrder: [
-      // { name: "Background" },
+      //COMMON
+      { name: "Background" },
+      // { name: "Eyeball" },
+      // { name: "Eye color" },
+      // { name: "Iris" },
+      // { name: "Shine" },
+      // { name: "Bottom lid" },
+      // { name: "Top lid" },
+    ],
+  },
+  {
+    growEditionSizeTo: 2,
+    layersOrder: [
+      //COMMON
+      { name: "Background" },
+      { name: "Eyeball" },
+      { name: "Eye color" },
+      { name: "Iris" },
+      { name: "Shine" },
+      { name: "Bottom lid" },
+      { name: "Top lid" },
     ],
   },
 ];
@@ -100,7 +120,6 @@ module.exports = {
   text,
   namePrefix,
   network,
-  solanaMetadata,
   gif,
   preview_gif,
 };
