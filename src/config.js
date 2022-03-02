@@ -25,7 +25,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 2,
+    growEditionSizeTo: 50,
     layersOrder: [
       //COMMON
       { name: "Background" },
