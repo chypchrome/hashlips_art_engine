@@ -1,20 +1,12 @@
-# Welcome to HashLips 👄
+# Downgrade Node version 
+Download and install nvm if you haven't already. Hashlips won't work with the latest version of Node. Using 14.17.6 to compile.
+```sh
+nvm install 14.17.6
+```
 
-![](https://github.com/HashLips/hashlips_art_engine/blob/main/logo.png)
-
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
-
-To find out more please visit:
-
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
-
-[👄 Discord](https://discord.com/invite/qh6MWhMJDN)
-
-[💬 Telegram](https://t.me/hashlipsnft)
-
-[🐦 Twitter](https://twitter.com/hashlipsnft)
-
-[ℹ️ Website](https://hashlips.online/HashLips)
+```sh 
+nvm use 14.17.6
+```
 
 # HashLips Art Engine 🔥
 
